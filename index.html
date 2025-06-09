@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="" >
+        <h1>Payment Form</h1>
+        <p>Required fields are followed by * </p>
+        <h2>Contact Information</h2>
+
+        <label for="">Name :*</label>
+        <input type="text" name="una" id="una" required required placeholder="Enter Your Name"><br><br>
+
+        <fieldset>
+            <legend>Gender *</legend>
+            Male: <input type="radio" name="g" id="g"required>
+            Female: <input type="radio" name="g" id="g"required>
+        </fieldset><br>
+
+        <label for="">Address :</label><br><br>
+
+        <label for="">E-mail :*</label>
+        <input type="email" name="ema" id="ema" required placeholder="Enter Your Email"><br><br>
+
+        <label for="">Pincode :*</label>
+        <input type="password" name="pss" id="pss" required placeholder="Enter Your Pincode"><br>
+
+        <h2>Payment Information</h2>
+
+        <label for="">Card Type :*</label>
+        <select name="ty" id="ty" required>
+            <option value="" align="center" >--Select a Card Type--</option>
+            <option value="">Visa</option>
+            <option value="">Master</option>
+            <option value="">Google Pay</option>
+            <option value="">Jazz Cash</option>
+            <option value="">Easypaisa</option>
+        </select><br><br>
+
+        <label for="">Card Number :*</label>
+        <input type="password" name="cd" id="cd" required > <br><br>
+
+        <label for="">Expiration Date :*</label>
+        <input type="date" name="date" id="date" required><br><br>
+
+        <label for="">CVV :*</label>
+        <input type="password" name="cv" id="cv" required> <br><br>
+        
+        <input type="submit" value="Pay Now">
+
+    </form>    
+</body>
+</html>
